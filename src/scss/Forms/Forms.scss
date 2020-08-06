@@ -1,0 +1,28 @@
+.form__container-form {
+
+  .input-field {
+
+    input {
+      padding-left: 10px!important;
+    }
+
+    .error-message {
+      margin: 5px;
+      color: crimson;
+      font-size: 15px;
+      display: none;
+    }
+
+    &.invalid {
+
+      .input-field__group {
+        border: 1px solid crimson;
+      }
+
+      .error-message {
+        display: block;
+      }
+
+    }
+  }
+}

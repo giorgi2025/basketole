@@ -1,0 +1,28 @@
+.split-layout-footer {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+
+  .footer__navigation {
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        display: inline-block;
+
+        .nav-link {
+          color: #3C5FE1;
+        }
+      }
+    }
+  }
+
+  .footer__copyrights {
+    .copyright {
+      color: #99A9BE;
+    }
+  }
+}

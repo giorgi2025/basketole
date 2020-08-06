@@ -1,0 +1,26 @@
+button.btn {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 9px 30px;
+
+  &.btn-primary {
+    background-color: #3C5FE1;
+    border: 2px solid transparent;
+  }
+
+  &.btn-secondary {
+    border: 2px solid #2D71F6;
+    color: #ffffff;
+    padding: 9px 18px;
+
+    &:hover {
+      background: #2D71F6;
+    }
+  }
+
+  &.btn-large {
+    height: 43px;
+  }
+}

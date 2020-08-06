@@ -1,0 +1,35 @@
+.custom-control {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.custom-control-label-cb {
+  position: relative;
+  cursor: pointer;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 14px;
+  color: #99A9BE;
+  line-height: 24px;
+
+  &::before {
+    border-radius: 0.25rem;
+    border: 1px solid #dee2e6;
+    //transition: all 0.15s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    top: 0.25rem;
+    left: -1.75rem;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    background-color: #fff;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

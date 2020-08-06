@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Icons/Dark/Profile Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Medium/Profile" transform="translate(-3.000000, -3.000000)" fill="#526484">
+            <g id="icons8-user" transform="translate(3.125000, 3.125000)">
+                <path d="M6.875,0 C4.80375,0 3.125,1.67875 3.125,3.75 L3.125,4.375 C3.125,6.44625 4.80375,8.125 6.875,8.125 C8.94625,8.125 10.625,6.44625 10.625,4.375 L10.625,3.75 C10.625,1.67875 8.94625,0 6.875,0 Z M6.87377937,10 C4.37002937,10 1.15752931,11.3542775 0.233154313,12.5561525 C-0.338095687,13.2992775 0.205703125,14.375 1.14257812,14.375 L12.6062012,14.375 C13.5430763,14.375 14.086875,13.2992775 13.515625,12.5561525 C12.59125,11.3549025 9.37752937,10 6.87377937,10 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

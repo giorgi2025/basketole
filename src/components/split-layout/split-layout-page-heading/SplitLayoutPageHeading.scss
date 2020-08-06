@@ -1,0 +1,12 @@
+.split-layout__page-heading {
+
+  &.align--center {
+    text-align: center;
+  }
+
+  .split-layout__heading {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+}

@@ -1,0 +1,155 @@
+.user__profile {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  padding: 0 30px;
+
+  .profile--left {
+    width: calc(33% - 5px);
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+
+    // User Details
+    .user__details {
+      padding: 30px;
+      text-align: center;
+
+      .profile__image {
+        img {
+          border-radius: 50%;
+          width: 170px;
+        }
+      }
+
+      .usernames {
+        display: block;
+        font-weight: bold;
+        margin: 10px 0;
+      }
+
+      .jobtitle {
+        display: block;
+      }
+    }
+
+    // User Progress
+    .user__progress {
+      //padding: 30px;
+
+      .progress__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-top: 1px solid gainsboro;
+        border-bottom: 1px solid gainsboro;
+        padding: 20px 0;
+
+        .progress__block {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-weight: bold;
+
+          .number {
+            color: black;
+            font-weight: inherit;
+          }
+
+          .status {
+            color: grey;
+            font-weight: inherit;
+          }
+        }
+      }
+    }
+
+    // User Biography
+    .user__biography {
+      margin-top: 30px;
+
+      font-weight: bold;
+
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .profile--right {
+    width: calc(66% - 5px);
+    background: white;
+    border-radius: 5px;
+
+    // Header Bar
+    .header__bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px;
+
+      span {
+        color: black;
+        font-weight: bold;
+      }
+    }
+
+    // Divider Bar
+    .divider__bar {
+      padding: 0 30px;
+      background-color: #F6F9FC;
+      height: 40px;
+
+      span {
+        font-weight: bold;
+        line-height: 40px;
+        color: #8898AA;
+        font-size: 12px;
+      }
+    }
+
+    // Form
+    .profile__form {
+      form {
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .form__field {
+          width: calc(50% - 15px);
+          margin: 15px 0;
+        }
+      }
+    }
+
+    // Biography Form
+    .biography__Form {
+      padding: 30px;
+
+      textarea {
+        box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+        border: 0;
+        transition: box-shadow .15s ease;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .profile--left {
+    width: 100% !important;
+  }
+  .profile--right {
+    width: 100% !important;
+  }
+}
+
+
+

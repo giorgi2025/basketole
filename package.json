@@ -1,0 +1,66 @@
+{
+  "name": "basketole",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "concurrently": "^5.2.0",
+    "emotion": "^10.0.27",
+    "firebase": "^7.14.4",
+    "if-env": "^1.0.4",
+    "is-empty": "^1.2.0",
+    "jwt-decode": "^2.2.0",
+    "luxon": "^1.23.0",
+    "moment-timezone": "^0.5.28",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-burger-menu": "^2.6.15",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-text-mask": "^5.4.3",
+    "react-table": "^6.10.0",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "validator": "^13.0.0",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {},
+  "proxy": "http://127.0.0.1:3002",
+  "scripts": {
+    "start": "npm run dev",
+    "client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "concurrently --kill-others \"react-scripts start\" \"nodemon backend/server.js\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

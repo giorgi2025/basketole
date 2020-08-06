@@ -1,0 +1,30 @@
+
+//svg {
+//  fill: #99A9BE;
+//}
+
+.btn.btn--reveal-password {
+  padding: 5px;
+  margin: 0;
+}
+
+.icon--eyecon{
+  fill: #99A9BE;
+  cursor: pointer;
+
+  &:hover {
+    fill: #3C5FE1;
+  }
+
+  &.icon--eyecon--visible {
+    fill: #3C5FE1;
+  }
+}
+
+//eyecon--active {
+//  fill: #3c5fe1;
+//
+//  svg {
+//    fill: inherit;
+//  }
+//}
